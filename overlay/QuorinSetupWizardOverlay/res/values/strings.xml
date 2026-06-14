@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="os_name" translatable="false">QuorinOS</string>
+    <string name="setup_services">QuorinOS features</string>
+</resources>

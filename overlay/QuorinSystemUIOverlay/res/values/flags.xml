@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Turn off Material You wallpaper-based theming so the Quorin
+         static palette is always used. -->
+    <bool name="flag_monet">false</bool>
+</resources>

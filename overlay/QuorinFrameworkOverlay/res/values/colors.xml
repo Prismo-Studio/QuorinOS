@@ -1,6 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Quorin electric blue accent -->
-    <color name="accent_device_default_light">#FF2D7FF9</color>
-    <color name="accent_device_default_dark">#FF2D7FF9</color>
+    <!-- ============================================================ -->
+    <!-- Quorin theme - refined royal blue accent over a deep navy     -->
+    <!-- neutral base. Both _light and _dark are set so the brand      -->
+    <!-- holds in either mode.                                         -->
+    <!-- ============================================================ -->
+
+    <!-- Accent 1 : refined royal blue (highlights, buttons, switches) -->
+    <color name="system_accent1_0_light">#FFFFFF</color>
+    <color name="system_accent1_10_light">#F5F8FF</color>
+    <color name="system_accent1_50_light">#E4EDFC</color>
+    <color name="system_accent1_100_light">#C9DBF8</color>
+    <color name="system_accent1_200_light">#9FBEF0</color>
+    <color name="system_accent1_300_light">#75A0E6</color>
+    <color name="system_accent1_400_light">#5183D6</color>
+    <color name="system_accent1_500_light">#3A6AC2</color>
+    <color name="system_accent1_600_light">#2C53A0</color>
+    <color name="system_accent1_700_light">#1F3E7C</color>
+    <color name="system_accent1_800_light">#142C5B</color>
+    <color name="system_accent1_900_light">#0B1B3C</color>
+    <color name="system_accent1_1000_light">#000000</color>
+
+    <color name="system_accent1_0_dark">#FFFFFF</color>
+    <color name="system_accent1_10_dark">#F5F8FF</color>
+    <color name="system_accent1_50_dark">#E4EDFC</color>
+    <color name="system_accent1_100_dark">#C9DBF8</color>
+    <color name="system_accent1_200_dark">#9FBEF0</color>
+    <color name="system_accent1_300_dark">#75A0E6</color>
+    <color name="system_accent1_400_dark">#5183D6</color>
+    <color name="system_accent1_500_dark">#3A6AC2</color>
+    <color name="system_accent1_600_dark">#2C53A0</color>
+    <color name="system_accent1_700_dark">#1F3E7C</color>
+    <color name="system_accent1_800_dark">#142C5B</color>
+    <color name="system_accent1_900_dark">#0B1B3C</color>
+    <color name="system_accent1_1000_dark">#000000</color>
+
+    <!-- Neutral 1 : deep navy backgrounds, surfaces and text -->
+    <color name="system_neutral1_0_light">#FFFFFF</color>
+    <color name="system_neutral1_10_light">#F3F6FC</color>
+    <color name="system_neutral1_50_light">#E7ECF6</color>
+    <color name="system_neutral1_100_light">#D9DFEC</color>
+    <color name="system_neutral1_200_light">#BDC4D4</color>
+    <color name="system_neutral1_300_light">#A1A9BB</color>
+    <color name="system_neutral1_400_light">#868EA2</color>
+    <color name="system_neutral1_500_light">#6C7488</color>
+    <color name="system_neutral1_600_light">#545C6F</color>
+    <color name="system_neutral1_700_light">#3D4457</color>
+    <color name="system_neutral1_800_light">#262D3E</color>
+    <color name="system_neutral1_900_light">#101726</color>
+    <color name="system_neutral1_1000_light">#000000</color>
+
+    <color name="system_neutral1_0_dark">#FFFFFF</color>
+    <color name="system_neutral1_10_dark">#F3F6FC</color>
+    <color name="system_neutral1_50_dark">#E7ECF6</color>
+    <color name="system_neutral1_100_dark">#D9DFEC</color>
+    <color name="system_neutral1_200_dark">#BDC4D4</color>
+    <color name="system_neutral1_300_dark">#A1A9BB</color>
+    <color name="system_neutral1_400_dark">#868EA2</color>
+    <color name="system_neutral1_500_dark">#6C7488</color>
+    <color name="system_neutral1_600_dark">#545C6F</color>
+    <color name="system_neutral1_700_dark">#3D4457</color>
+    <color name="system_neutral1_800_dark">#262D3E</color>
+    <color name="system_neutral1_900_dark">#101726</color>
+    <color name="system_neutral1_1000_dark">#000000</color>
+
+    <!-- Neutral 2 : secondary navy surfaces -->
+    <color name="system_neutral2_0_light">#FFFFFF</color>
+    <color name="system_neutral2_10_light">#F1F5FF</color>
+    <color name="system_neutral2_50_light">#E4EBF8</color>
+    <color name="system_neutral2_100_light">#D5DDEE</color>
+    <color name="system_neutral2_200_light">#B9C2D8</color>
+    <color name="system_neutral2_300_light">#9EA7BD</color>
+    <color name="system_neutral2_400_light">#838DA2</color>
+    <color name="system_neutral2_500_light">#6A7387</color>
+    <color name="system_neutral2_600_light">#525B6F</color>
+    <color name="system_neutral2_700_light">#3B4358</color>
+    <color name="system_neutral2_800_light">#252D41</color>
+    <color name="system_neutral2_900_light">#0F1628</color>
+    <color name="system_neutral2_1000_light">#000000</color>
+
+    <color name="system_neutral2_0_dark">#FFFFFF</color>
+    <color name="system_neutral2_10_dark">#F1F5FF</color>
+    <color name="system_neutral2_50_dark">#E4EBF8</color>
+    <color name="system_neutral2_100_dark">#D5DDEE</color>
+    <color name="system_neutral2_200_dark">#B9C2D8</color>
+    <color name="system_neutral2_300_dark">#9EA7BD</color>
+    <color name="system_neutral2_400_dark">#838DA2</color>
+    <color name="system_neutral2_500_dark">#6A7387</color>
+    <color name="system_neutral2_600_dark">#525B6F</color>
+    <color name="system_neutral2_700_dark">#3B4358</color>
+    <color name="system_neutral2_800_dark">#252D41</color>
+    <color name="system_neutral2_900_dark">#0F1628</color>
+    <color name="system_neutral2_1000_dark">#000000</color>
+
+    <!-- legacy accent for older widgets -->
+    <color name="accent_device_default_light">#3A6AC2</color>
+    <color name="accent_device_default_dark">#3A6AC2</color>
 </resources>
