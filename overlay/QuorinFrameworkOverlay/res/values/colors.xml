@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Quorin electric blue accent -->
+    <color name="accent_device_default_light">#FF2D7FF9</color>
+    <color name="accent_device_default_dark">#FF2D7FF9</color>
+</resources>
