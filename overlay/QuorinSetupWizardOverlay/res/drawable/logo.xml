@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Temporary Quorin brand mark: a geometric "Q". Replaced later by the
+     final Quorin logo / boot animation. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="260dp"
+    android:viewportWidth="512"
+    android:viewportHeight="260">
+
+    <path
+        android:strokeColor="#3A6AC2"
+        android:strokeWidth="26"
+        android:fillColor="#00000000"
+        android:pathData="M342,118 A86,86 0 1 0 170,118 A86,86 0 1 0 342,118 Z" />
+    <path
+        android:strokeColor="#3A6AC2"
+        android:strokeWidth="26"
+        android:strokeLineCap="round"
+        android:pathData="M312,160 L362,210" />
+</vector>

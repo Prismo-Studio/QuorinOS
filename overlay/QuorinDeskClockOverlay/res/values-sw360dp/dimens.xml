@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The emulator reports smallestWidth 360dp, so the visible clock reads
+         its size from this qualified folder, not the default values/. -->
+    <dimen name="main_clock_digital_font_size">110sp</dimen>
+    <dimen name="main_clock_font_size">96sp</dimen>
+</resources>

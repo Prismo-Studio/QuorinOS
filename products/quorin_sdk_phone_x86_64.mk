@@ -12,4 +12,5 @@ PRODUCT_PACKAGES += \
     QuorinSdkOverlay \
     QuorinSetupWizardOverlay \
     QuorinLineagePartsOverlay \
-    QuorinUpdaterOverlay
+    QuorinUpdaterOverlay \
+    QuorinDeskClockOverlay
