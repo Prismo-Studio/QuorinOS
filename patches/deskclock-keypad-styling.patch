@@ -1,39 +1,44 @@
 diff --git a/res/values/styles.xml b/res/values/styles.xml
-index 33a71dda4..3dc8a5b75 100644
+index 33a71dda4..3cef6d55d 100644
 --- a/res/values/styles.xml
 +++ b/res/values/styles.xml
-@@ -91,14 +91,16 @@
+@@ -91,14 +91,18 @@
          <item name="android:insetBottom">0dp</item>
          <item name="android:insetLeft">0dp</item>
          <item name="android:insetRight">0dp</item>
 -        <item name="android:textSize">36sp</item>
 -        <item name="android:layout_margin">2.0dip</item>
-+        <item name="android:textSize">34sp</item>
-+        <item name="android:layout_margin">6dp</item>
++        <item name="android:textSize">26sp</item>
++        <item name="android:layout_margin">14dp</item>
          <item name="android:padding">0dp</item>
 +        <item name="android:maxLines">1</item>
          <item name="layout_constraintDimensionRatio">1:1</item>
 -        <item name="autoSizeMaxTextSize">36sp</item>
-+        <item name="autoSizeMaxTextSize">34sp</item>
-+        <item name="autoSizeMinTextSize">16sp</item>
++        <item name="autoSizeMaxTextSize">26sp</item>
++        <item name="autoSizeMinTextSize">14sp</item>
          <item name="autoSizeTextType">uniform</item>
 -        <item name="backgroundTint">?attr/colorSurfaceVariant</item>
 -        <item name="android:textColor">?attr/colorOnSurface</item>
-+        <item name="backgroundTint">?attr/colorPrimaryContainer</item>
-+        <item name="android:textColor">?attr/colorOnPrimaryContainer</item>
++        <item name="backgroundTint">@android:color/transparent</item>
++        <item name="android:textColor">?attr/colorPrimary</item>
++        <item name="strokeColor">?attr/colorOutlineVariant</item>
++        <item name="strokeWidth">1dp</item>
      </style>
  
      <style name="Widget.Button.TimerSetupDigit.CircleOverlay">
 diff --git a/res/values/themes.xml b/res/values/themes.xml
-index 9c481b7e7..2aadab272 100644
+index 9c481b7e7..8976eae72 100644
 --- a/res/values/themes.xml
 +++ b/res/values/themes.xml
-@@ -59,6 +59,8 @@
+@@ -59,6 +59,11 @@
          <item name="shapeAppearanceOverlay">
              @style/ShapeAppearance.Material3.Corner.Full
          </item>
 +        <item name="backgroundTint">?attr/colorPrimary</item>
 +        <item name="tint">?attr/colorOnPrimary</item>
++        <item name="fabCustomSize">48dp</item>
++        <item name="maxImageSize">22dp</item>
++        <item name="elevation">0dp</item>
      </style>
  
      <style name="Theme.DeskClock.MaterialSwitch" parent="Widget.Material3.CompoundButton.MaterialSwitch">
