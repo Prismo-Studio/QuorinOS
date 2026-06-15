@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Quorin default wallpaper: a cyan gradient. Monet derives the system
+     palette from this, so the whole system reads as cyan/blue. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="1080dp"
+    android:height="2400dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="2400">
+
+    <path android:pathData="M0,0 H1080 V2400 H0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="1080"
+                android:endY="2400"
+                android:startColor="#1FB6E6"
+                android:centerColor="#0A86C0"
+                android:endColor="#063A56" />
+        </aapt:attr>
+    </path>
+</vector>

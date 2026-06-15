@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Turn off Material You wallpaper-based theming so the Quorin
-         static palette is always used. -->
-    <bool name="flag_monet">false</bool>
+    <!-- Keep Material You on: the Quorin cyan wallpaper seeds the palette,
+         so framework AND Material 3 apps all read as cyan. -->
+    <bool name="flag_monet">true</bool>
 </resources>
